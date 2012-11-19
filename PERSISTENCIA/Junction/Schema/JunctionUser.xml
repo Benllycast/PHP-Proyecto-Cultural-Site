@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="users" class="JunctionUser">
+		<id name="Id" column="id" />
+		<property name="Email" column="email" />
+		<property name="Password" column="password" />
+		<property name="Date" column="date_added" />
+	</class>
+</junction-mapping>

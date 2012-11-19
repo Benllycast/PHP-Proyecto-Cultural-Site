@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="actividades" class="dtoActividad">
+		<id name="Id" column="id" />
+		<property name="Nombre" column="nombre" />
+		<property name="FechaCreacion" column="fecha_creacion" />
+		<property name="FechaInicio" column="fecha_inicio" />
+		<property name="FechaFin" column="fecha_fin" />
+		<property name="Tipo" column="tipo" />
+		<property name="Costo" column="costo" />
+		<property name="Boleteria" column="boleteria" />
+		<property name="Asistentes" column="asistentes" />
+		<property name="Patrocinador" column="patrocinador" />
+		<property name="Organizador" column="organizador" />
+		<property name="Multiple" column="multiple" />
+		<property name="IdCreador" column="idCreador" />
+		<property name="Descripcion" column="descripcion" />
+		<property name="Icono" column="icono" />
+		<property name="Lugar" column="lugar" />
+		<property name="Hora" column="hora" />
+		<property name="Capacidad" column="capacidad" />
+	</class>
+</junction-mapping>

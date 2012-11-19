@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="crearUsuario.php">
+  <p>
+    <label>Nikname
+      <input type="text" name="nikname" id="nikname" />
+    </label>
+  </p>
+  <p>
+    <label>E-mail
+      <input type="text" name="email" id="email" />
+    </label>
+  </p>
+  <p>
+    <label>password
+      <input type="text" name="password" id="password" />
+    </label>
+  </p>
+  <p>
+    <label>Nombre
+      <input type="text" name="nombre" id="nombre" />
+    </label>
+  </p>
+  <p>
+    <label>Apellidos
+      <input type="text" name="apellido" id="apellido" />
+    </label>
+  </p>
+  <p>
+    <label>Edad
+      <input type="text" name="edad" id="edad" />
+      <br />
+      <br />
+    </label>
+  Gustos del usuario</p>
+  <table width="21%" border="0">
+    <tr>
+      <td><label>
+        <input name="musical[]" type="checkbox" id="musical_0" value="musical-1" checked="checked" />
+        musical 1</label>
+        <br />
+        <label>
+          <input name="musical[]" type="checkbox" id="musical_1" value="musical-2" checked="checked" />
+          musical 2</label>
+        <label> <br />
+          <input type="checkbox" name="musical[]" value="musical-3" id="musical_2" />
+          musical 3</label></td>
+      <td><label>
+        <input type="checkbox" name="deportivo[]" value="deportivo-1" id="deportivo_0" />
+        deportivo 1</label>
+        <br />
+        <label>
+          <input type="checkbox" name="deportivo[]" value="deportivo-2" id="deportivo_1" />
+          deportivo 2</label>
+          <br />
+        <label>
+          <input type="checkbox" name="deportivo[]" value="deportivo-3" id="deportivo_2" />
+      deportivo 3</label></td>
+    </tr>
+  </table>
+  <p>
+    <label>Direccion
+      <input type="text" name="direccion" id="direccion" />
+    </label>
+  </p>
+  <p>
+    <label>Ciudad
+      <input type="text" name="ciudad" id="ciudad" />
+    </label>
+  </p>
+  <p>
+    <label>Localidad
+      <input type="text" name="localidad" id="localidad" />
+    </label>
+  </p>
+  <p>
+    <label>Pais
+      <input type="text" name="pais" id="pais" />
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="submit" name="eviar" id="eviar" value="crear" />
+    </label>
+  </p>
+</form>
+</body>
+</html>

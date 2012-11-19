@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="tipoactividad" class="dtoTipoActividad">
+		<id name="Id" column="id" />
+		<property name="IdActividad" column="idactividad" />
+		<property name="Tipo" column="tipo" />
+		<property name="Genero" column="genero" />
+	</class>
+</junction-mapping>

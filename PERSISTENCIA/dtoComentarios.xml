@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="comentarios" class="dtoComentarios">
+		<id name="Id" column="id" />
+		<property name="Fecha" column="fecha" />
+		<property name="IdEmisor" column="idemisor" />
+		<property name="Mensaje" column="mensaje" />
+		<property name="IdActividad" column="idActividad" />
+	</class>
+</junction-mapping>

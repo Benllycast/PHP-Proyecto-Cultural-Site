@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="silenciados" class="dtoSilenciados">
+		<id name="Id" column="id" />
+		<property name="IdUsuario" column="idusuario" />
+		<property name="IdSilenciado" column="idsilenciado" />
+	</class>
+</junction-mapping>

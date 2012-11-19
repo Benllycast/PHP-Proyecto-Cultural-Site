@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Junction PHP -- Samples</title>
+</head>
+<body style="width: 600px; margin: auto; font-family: Verdana;">
+	<hr />
+	<h1>Junction Sample Scripts</h1>
+	<p>I hope the following examples will help you understand how to use
+	Junction.  They demonstrate how perform basic CRUD tasks.  Before 
+	running any of these scripts please be sure to set up a database with 
+	the following configuration (you can always change Junction's database 
+	configuration by going to <code>Conf/junction.ini</code>).</p>
+	<strong style="font-size: small;">Database configuration</strong>
+	<table style="font-size: small;">
+		<tr>
+			<td>Database type</td> <td>MySQL</td>
+		</tr>
+		<tr>
+			<td>Database name</td> <td>JunctionTest</td>
+		</tr>
+		<tr>
+			<td>Database host</td> <td>localhost</td>
+		</tr>
+		<tr>
+			<td>Database user</td> <td>JunctionUser</td>
+		</tr>
+		<tr>
+			<td>Database password</td> <td>junction</td>
+		</tr>
+	</table>
+	<p>Once the database has been created execute the following SQL to 
+	create a new table (where the data object's state will be persisted).</p>
+	<strong style="font-size: small;">Table schema</strong>
+	<code style="font-size: small;">
+	<pre>
+CREATE TABLE Users (
+	`id` integer(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`email` varchar(60),
+	`password` varchar(60),
+	`date_added` integer(10)
+)
+	</pre>
+	</code>
+	<strong style="font-size: small;">Sample scripts</strong>
+	<p>All scripts reside in <code>Sample</code> under the <code>Junction</code>
+	package.</p>
+	<ol>
+		<li><a href="CreateUser.php">Creating a user using Junction</a></li>
+		<li><a href="SelectUser.php">Retrieve user objects through Junction</a></li>
+		<li><a href="SelectUserByEmail.php">Retrieve user objects which match conditions</a></li>
+		<li><a href="UpdateUser.php">Modify and save user objects</a></li>
+		<li><a href="DeleteUser.php">Delete user's from the database through Junction</a></li>
+	</ol>
+	Read the <a href="http://code.google.com/p/junction/wiki/JunctionQuickStart">Quick-start guide</a>.<br />
+	Read more about Junction <a href="http://code.google.com/p/junction/wiki/MappingFile">MappingFiles</a>.<br />
+	Read more about Junction <a href="http://code.google.com/p/junction/wiki/DataObject">DataObjects</a>.<br />
+	Read more about <a href="http://code.google.com/p/junction/wiki/JunctionConfiguration">JunctionConfiguration</a>.
+	<hr />
+	<a href="http://junctionphp.com">JunctionPHP</a> <em>September 12, 2007</em>
+</body>
+</html>

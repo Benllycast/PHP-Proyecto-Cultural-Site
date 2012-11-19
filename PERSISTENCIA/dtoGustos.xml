@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="gustos" class="dtoGustos">
+		<id name="Id" column="id" />
+		<property name="IdUsuario" column="idusuario" />
+		<property name="Tipo" column="tipo" />
+		<property name="Genero" column="genero" />
+	</class>
+</junction-mapping>

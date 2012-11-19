@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="usuarios" class="dtoUsuario">
+		<id name="Id" column="id" />
+		<property name="Actividades" column="actividades" />
+		<property name="Activo" column="activo"/>
+		<property name="Email" column="email" />
+		<property name="Estado" column="estado" />
+		<property name="FechaCreacion" column="fechaCreacion"/>
+		<property name="Nikname" column="nikname"/>
+		<property name="Password" column="password"/>
+	</class>
+</junction-mapping>

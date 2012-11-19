@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="personas" class="dtoPersona">
+		<id name="Id" column="id" />
+		<property name="Amigos" column="amigos" />
+		<property name="Apellidos" column="apellidos" />
+		<property name="Nombre" column="nombre" />
+		<property name="Localidad" column="localidad" />
+		<property name="Pais" column="pais" />
+		<property name="Ciudad" column="ciudad" />
+		<property name="Edad" column="edad" />
+		<property name="Direccion" column="direccion" />
+		<property name="Seguimiento" column="seguimiento" />
+	</class>
+</junction-mapping>

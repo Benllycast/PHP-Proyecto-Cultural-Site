@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<p>&nbsp;</p>
+<form id="frmCrearActvidad" name="frmCrearActvidad" method="post" action="/web/VISTA/registrarActividad.php">
+<p>
+    <label>Nombre
+      <input type="text" name="nombre" id="nombre" />
+    </label>
+  </p>
+  <p>
+    <label>Fecha Inicio
+      <input type="text" name="fechainicio" id="fechainicio" />
+    </label>
+  </p>
+  <p>
+    <label>Fecha Fin
+      <input type="text" name="fechafin" id="fechafin" />
+    </label>
+  </p>
+  <p>
+    <label>Tipo de evento:    </label>
+  </p>
+  <table width="21%" border="0">
+    <tr>
+      <td><label>
+        <input type="checkbox" name="musical[]" value="musical-1" id="musical_0" />
+        musical 1</label>
+        <br />
+        <label>
+          <input type="checkbox" name="musical[]" value="musical-2" id="musical_1" />
+          musical 2</label>
+      <label>
+      <br />
+      <input type="checkbox" name="musical[]" value="musical-3" id="musical_2" />
+      musical 3</label></td>
+      <td><label>
+        <input type="checkbox" name="deportivo[]" value="deportivo-1" id="deportivo_0" />
+        deportivo 1</label>
+        <br />
+        <label>
+          <input type="checkbox" name="deportivo[]" value="deportivo-2" id="deportivo_1" />
+      deportivo 2</label></td>
+    </tr>
+  </table>
+  <label><br />
+  </label>
+  <p>
+    <label> </label>
+    <label>Costo
+      <input type="text" name="costo" id="costo" />
+    </label>
+  </p>
+  <p>
+    <label>Boleteria
+      <input type="text" name="boleteria" id="boleteria" />
+    </label>
+  </p>
+  <p>
+    <label>Asistentes
+      <input type="text" name="asistentes" id="asistentes" />
+    </label>
+  </p>
+  <p>
+    <label>Patrocinador
+      <input type="text" name="patrocinador" id="patrocinador" />
+    </label>
+  </p>
+  <p>
+    <label>Organizador
+      <input type="text" name="organizador" id="organizador" />
+    </label>
+  </p>
+  <p>
+    <label>Multiple
+      <select name="multiple" id="multiple">
+        <option value="1">si</option>
+        <option value="0">no</option>
+      </select>
+    </label>
+  </p>
+  <p>
+    <label>IdCreador
+      <input type="text" name="idcreador" id="idcreador" />
+    </label>
+  </p>
+  <p>
+    <label>Descripcion
+      <input type="text" name="descripcion" id="descripcion" />
+    </label>
+  </p>
+  <p>
+    <label>Lugar
+      <input type="text" name="lugar" id="lugar" />
+    </label>
+  </p>
+  <p>
+    <label>Hora
+      <input type="text" name="hora" id="hora" />
+    </label>
+  </p>
+  <p>
+    <label>Capacidad
+      <input type="text" name="capacidad" id="capacidad" />
+      <br />
+      <br />
+    </label>
+    <input type="submit" name="enviar" id="enviar" value="Guardar Actividad" />
+  </p>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

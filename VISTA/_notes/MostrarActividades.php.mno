@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Actividades" value="name:id;datatype:int,name:nombre;datatype:string,name:fecha_creacion;datatype:date,name:fecha_inicio;datatype:date,name:fecha_fin;datatype:date,name:tipo;datatype:string,name:costo;datatype:int,name:boleteria;datatype:int,name:asistentes;datatype:int,name:patrocinador;datatype:string,name:organizador;datatype:string,name:multiple;datatype:string,name:idCreador;datatype:string,name:descripcion;datatype:blob,name:icono;datatype:blob,name:lugar;datatype:blob,name:hora;datatype:time,name:capacidad;datatype:int" />
+</info>

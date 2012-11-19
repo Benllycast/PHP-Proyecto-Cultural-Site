@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="seguimiento" class="dtoSeguimiento">
+		<id name="Id" column="id" />
+		<property name="IdUsuario" column="idUsuario" />
+		<property name="IdActividad" column="idActividad" />
+	</class>
+</junction-mapping>

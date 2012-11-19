@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<junction-mapping>
+	<class table="Amigos" class="dtoAmigos">
+		<id name="Id" column="id" />
+		<property name="IdAmigo" column="idamigo" />
+		<property name="IdUsuario" column="idusuario" />
+		<property name="Relacion" column="relacion" />
+	</class>
+</junction-mapping>
